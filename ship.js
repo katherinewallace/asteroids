@@ -3,11 +3,9 @@
   var MovingObject = Asteroids.MovingObject
   var Asteroid = Asteroids.Asteroid
   var Bullet = Asteroids.Bullet
-  // var Game = Asteroids.Game
 
   var Ship = Asteroids.Ship = function (){
-    // MovingObject.call([Math.floor(Game.DIM_X/2), Math.floor(GAME.DIM_Y/2)],
-//       [0,0], this.RADIUS, this.COLOR);
+
 MovingObject.call(this,[300,300],
   [0,0], this.RADIUS, this.COLOR);
   }
